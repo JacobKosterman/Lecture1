@@ -165,5 +165,6 @@ public class splashscreen extends AppCompatActivity {
     public void sendMessage(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+
     }
 }
